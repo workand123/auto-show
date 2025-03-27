@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Шапка страницы */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Навигация */
+nav {
+    background-color: #005bb5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #003f7f;
+}
+
+/* Основной контент */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Подвал страницы */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Заголовки */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #444;
+}
+
+/* Параграфы */
+p {
+    line-height: 1.6;
+}
